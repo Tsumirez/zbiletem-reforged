@@ -15,7 +15,8 @@ body {
     --dark-panel-bg-color: rgba(49, 60, 94, 0.1);
     --graphite: #505050;
 
-    background: var(--page-bg-color);
+    background: var(--page-bg-color) url('./assets/images/header-bg.svg') no-repeat;
+    background-size: 100% 80rem;
 }
 
 header, footer, main > * {
@@ -42,4 +43,13 @@ footer {
     clip-path: inset(0 -100vmax);
     box-shadow: 0 0 0 100vmax var(--dark-blue);
     background-color: var(--dark-blue);
+}
+
+
+/* Header */
+
+header img {
+    grid-column: 1/-1;
+    width: 100%;
+    height: 100%;
 }
