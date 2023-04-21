@@ -17,10 +17,10 @@
         <!-- <img src="./assets/images/header-bg.svg" alt=""> -->
     </header>
 
-    <!-- Main page articles -->
+    <!-- Main page body -->
     <main>
         <section id="search"></section>
-        <section id="intro">
+        <section id="intro" class="two-column">
             <h2>Podróżuj z Biletem</h2>
             <p class="lead">zBiletem to najprostsza aplikacja do kupowania biletów komunikacji miejskiej. Bez względu na
                 to czy
@@ -35,15 +35,216 @@
             <img src="assets/images/how-to-vid-thumb.webp" alt="">
         </section>
 
-        <section id="articles">
-            <h2>Najprostszy sposób na bilety</h2>
+        <!-- article section -->
+        <section id="articles" class="two-column">
+            <h2 class="dark-header">Najprostszy sposób na bilety</h2>
+            <p class="lead">Kolejka do biletomatu lub kasy? Nie zawracaj sobie tym głowy! Wszystko czego potrzebujesz
+                masz w smartfonie. Koniec z nerwowym poszukiwaniem biletu - teraz możesz mieć go zawsze pod ręką. Do
+                wyboru masz wiele metod płatności. Najwyższy czas podróżować wygodniej zbiletem. Możesz też kupić bilet
+                okresowy dla bliskiej osoby w naszym sklepie internetowym, a ona pobierze go w apce.</p>
+
+            <article>
+                <img src="assets/images/about-image-2.webp" alt="">
+                <h3 class="dark-header">Bilety w aplikacji</h3>
+                <input type="checkbox" class="read-more" checked>
+                <div>
+                    <p class="recap">Czy wiesz, że liczba biletów kupowanych w aplikacjach mobilnych stale rośnie?
+                        Bilety kupuje się szybko i bezpiecznie a w przypadku kontroli są zawsze pod ręką. Pobierz
+                        zBiletem jeśli potrzebujesz prostego i funkcjonalnego narzędzia do zakupu biletów
+                        komunikacji miejskiej. Po wybraniu metody płatności przy pierwszym zakupie, kupno kolejnego
+                        biletu
+                        to tylko 3 kliknięcia i 10 sekund. Aktywny bilet w aplikacji możesz okazać do kontroli nawet
+                        offline. Niezależnie czy korzystasz z ZTM, MPK czy MZK, zBiletem to dla Ciebie idealny
+                        kompan w podróży.</p>
+                </div>
+            </article>
+
+            <article>
+                <img src="assets/images/article-image-2.webp" alt="">
+                <h3 class="dark-header">O tej aplikacji</h3>
+                <input type="checkbox" class="read-more" checked>
+                <div>
+                    <p class="recap">Aplikacja zbiletem jest polecana przez 70% użytkowników i użytkowniczek. Wiesz
+                        dlaczego? Rozwijamy ją wspólnie od 2015 roku. Osoby korzystające z apki zBiletem doceniają w
+                        niej głównie prostotę i szybkość działania. Można w niej płacić za bilety z przedpłaconego
+                        portfela, Google Pay, Apple Pay, Blikiem i kartą płatniczą. Działamy w ponad 60 miastach w
+                        Polsce. Każdego dnia tysiące osób podróżuje wygodniej z biletem miesięcznym w tej aplikacji.
+                        W każdym miesiącu w tej apce kupowanych jest setki tysięcy biletów czasowych i
+                        jednorazowych. Z aplikacją zBiletem nie musisz się martwić czy biletomat będzie działał.
+                        Masz swój własny, w kieszeni.
+                    </p>
+                </div>
+            </article>
+
+            <article id="cities">
+                <img src="assets/images/tram.webp" alt="">
+                <h3 class="dark-header">Dla miast i operatorów</h3>
+                <input type="checkbox" class="read-more" checked>
+                <div>
+                    <p class="recap">zbiletem to rozwiązanie dla miast, gmin i operatorów publicznego transportu
+                        zbiorowego. Dostarczamy i utrzymujemy kompleksowe rozwiązanie do sprzedaży, aktywacji i
+                        kontroli biletów mobilnych zwiększając wpływy ze sprzedaży biletów. Cały system obejmuje:
+                        aplikację mobilną użytkownika, sklep internetowy, panel zarządczy, aplikację kontrolerską
+                        oraz szereg API do współpracy z rozwiązaniami innych dostawców. Aplikacja zBiletem może być
+                        wdrożona w warunkach dużego jak i małego miasta w ciągu kilku tygodni. To tańszy w
+                        porównaniu z innymi, wymagającymi obsługi personelu lub drogiego sprzętu, kanał dystrybucji
+                        biletów w transporcie publicznym.</p>
+
+                    <p class="recap">
+                        Wśród rozwiązań Infospread znajdziesz także pierwszy w Polsce system aktywacji biletów
+                        mobilnych w oparciu o kody QR w pojazdach.
+                    </p>
+
+                    <p class="recap">Twoje bilety mogą się znaleźć w aplikacji zbiletem.pl już za kilka tygodni.
+                        Napisz na <a href="mailto:kontakt@zbiletem.pl">kontakt@zbiletem.pl</a> aby umówić spotkanie
+                        lub
+                        rozmowę.</p>
+                </div>
+            </article>
         </section>
+
+        <!-- FAQ section -->
 
         <section id="faq">
-            <h2>Najczęściej zadawane pytania</h2>
+
+            <h2>Często zadawane pytania</h2>
+            <p class="lead">
+
+                Jeśli masz jakiekolwiek pytanie dotyczące korzystania z naszej aplikacji, napisz do nas. Zanim to
+                zrobisz, sprawdź jednak poniższą listę często zadawanych pytań. Być może znajdziesz tu odpowiedź na
+                Twoje pytanie.
+            </p>
+            <article class="light-gray-panel">
+                <dl>
+
+                    <input type="checkbox" id="FAQ-1">
+                    <dt>
+                        <label for="FAQ-1">Kupiłam/kupiłem bilet, ale nie widzę go w aplikacji. Co zrobić?</label>
+                    </dt>
+                    <dd>
+                        Najczęściej przyczyną braku biletu w aplikacji jest błędny numer telefonu podany
+                        podczas zakupu. Jeśli nie widzisz swojego biletu, skontaktuj się z nami przez e-maila
+                        na adres <a href="mailto:kontakt@zbiletem.pl">kontakt@zbiletem.pl</a> lub media społecznościowe
+                        podający poprawny numer telefonu i adres e-mail podany podczas zakupu biletu. Poprawimy numer
+                        dla Ciebie i damy znać.
+                    </dd>
+
+                    <input type="checkbox" id="FAQ-10">
+                    <dt> <label for="FAQ-10">Co jeśli transakcja się nie powiodła, nie widzę biletu a mój rachunek
+                            został obciążony?
+                        </label></dt>
+                    <dd>Czasami transakcje zakupu są anulowane np. z uwagi na zbyt długi czas procesowania. Wtedy bilet
+                        nie jest generowany, ale Twój bank może chwilowo pokazywać obciążenie rachunku. W takiej
+                        sytuacji zwrot pieniędzy
+                        powinien być zrobiony automatycznie.
+                        Poczekaj kilka godzin lub następnego dnia sprawdź swój rachunek. Jeśli nie otrzymasz zwrotu,
+                        koniecznie skontaktuj się z nami na <a href="mailto:kontakt@zbiletem.pl">kontakt@zbiletem.pl</a>
+                        podając numer telefonu i datę transakcji. Wyjaśnimy i na pewno środki wrócą do Ciebie.
+                    </dd>
+
+                    <input type="checkbox" id="FAQ-2">
+                    <dt> <label for="FAQ-2">Jak usunąć kartę płatniczą z aplikacji mobilnej?</label></dt>
+                    <dd>Dodaną kartę płatniczą można usunąć podczas kupowania biletu jednorazowego. Wystarczy, że
+                        wejdziesz na widok wyboru metod płatności i w tym miejscu usuniesz kartę. Pamiętaj, że nie mamy
+                        danych Twojej karty, przetwarza je bezpiecznie operator płatności z którym współpracujemy.
+                    </dd>
+
+                    <input type="checkbox" id="FAQ-3">
+                    <dt><label for="FAQ-3">Czy bilet jednorazowy po zakupie muszę aktywować?</label></dt>
+                    <dd>W większości miast sam zakup biletu jest jego aktywacją i nie musisz robić nic więcej. Są jednak
+                        miasta w których kupiony bilet trzeba aktywować, np. w Warszawie, gdzie bilety jednorazowe i
+                        czasowe trzeba aktywować poprzez skanowanie kodu QR, który znajdziesz na specjalnych naklejkach
+                        w pojazdach lub na bramkach w metrze.</dd>
+
+                    <input type="checkbox" id="FAQ-4">
+                    <dt> <label for="FAQ-4">Czy muszę aktywować bilet okresowy, np. miesięczny?</label></dt>
+                    <dd>Bilety okresowe aktywuje się tylko w Rybniku i Jastrzębiu-Zdroju, przy każdym przejeździe.
+                        W pojazdach znajdują się naklejki zbiletem, na których umieszczony jest kod QR i tag NFC.
+                        Możesz zeskanować kod na naklejce lub zbliżyć do niej telefon z NFC. Wtedy bilet staje się
+                        aktywny
+                        i zmieni kolor. W innych miastach, bilety okresowe aktywują się zgodnie z wybraną datą
+                        początkową
+                        i/lub godziną zakupu</dd>
+
+                    <input type="checkbox" id="FAQ-5">
+                    <dt> <label for="FAQ-5">Czy mogę przenieść swoją MIGAWKĘ w Łodzi do aplikacji mobilnej?</label></dt>
+                    <dd>Niestety nie. zbiletem i Migawka MPK to odrębne systemy. Pamiętaj jednak że zbiletem oficjalnie
+                        działa w Łodzi i bilety w apce dają Ci takie same uprawnienia jak te na karcie plastikowej
+                        Migawka. Zachęcamy więc do kupna kolejnej migawki w naszej apce.</dd>
+
+                    <input type="checkbox" id="FAQ-6">
+                    <dt> <label for="FAQ-6">Czy mogę przenieść bilet zapisany na karcie do aplikacji?</label></dt>
+                    <dd>Bilet okresowy zakupiony poza aplikacją/stroną internetową zbiletem, nie może zostać
+                        przeniesiony do aplikacji. Zachęcamy do zakupu kolejnego biletu przez naszą apkę.</dd>
+
+                    <input type="checkbox" id="FAQ-7">
+                    <dt> <label for="FAQ-7">Czy mogę wydrukować bilet?</label></dt>
+                    <dd>Niestety nie. Bilet okresowy jest przechowywany w aplikacji, więc przy kontroli jest ona
+                        niezbędna.
+                        Na adres mailowy wysyłamy potwierdzenie zakupu biletu, które nie jest traktowane jak aktywny
+                        bilet.
+                        Wyjątkiem jest Słupsk, gdzie potwierdzenie biletu działa jak aktywny bilet.</dd>
+
+                    <input type="checkbox" id="FAQ-8">
+                    <dt> <label for="FAQ-8">Pomyliłem się w danych/dacie na bilecie, jak to zmienić?</label></dt>
+                    <dd>Bez obaw, wszystko da się poprawić. Jeśli przy zakupie biletu wkradł się błąd w danych pasażera
+                        albo została zaznaczona błędna data rozpoczęcia biletu, napisz do nas e-mail na adres
+                        <a href="mailto:kontakt@zbiletem.pl">kontakt@zbiletem.pl</a> lub znajdź nas w social mediach.
+                        Podaj poprawne dane a my się tym zajmiemy i damy Ci znać.
+                    </dd>
+
+                    <input type="checkbox" id="FAQ-9">
+                    <dt> <label for="FAQ-9">Jak zwrócić bilet? </label></dt>
+                    <dd>Zwroty biletów są możliwe zgodnie z regulaminem zwrotów, który obowiązuje w danym mieście.
+                        Zajrzyj na <a href="http://www.zbiletem.pl/zwrot">zbiletem.pl/zwrot</a> i sprawdź jak jest w
+                        Twoim mieście.
+                        Jeśli chcesz zwrócić swój bilet napisz do nas na <a
+                            href="mailto:kontakt@zbiletem.pl">kontakt@zbiletem.pl</a>.
+                    </dd>
+
+                    <input type="checkbox" id="FAQ-11">
+                    <dt> <label for="FAQ-11">Dlaczego muszę podać numer PESEL przy zakupie imiennego biletu
+                            okresowego?</label></dt>
+                    <dd>Prosimy o numer PESEL pasażera, aby jednoznacznie określić właściciela biletu imiennego i
+                        zidentyfikować również podczas kontroli.
+                        Dzięki temu, nawet jeśli masz problem z telefonem, lub rozładuje Ci się bateria, możesz
+                        spokojnie podróżować ponieważ w części miast
+                        możemy sprawdzić ważność Twojego biletu właśnie poprzez numer PESEL. Twoje dane są bezpieczne i
+                        przetwarzane wyłącznie w celu obsługi
+                        klienta i realizacji naszych zobowiązań wobec Ciebie. Kontroler nie ma dostępu do Twoich danych
+                        poza momentem kontroli.
+                    </dd>
+
+                    <input type="checkbox" id="FAQ-12">
+                    <dt> <label for="FAQ-12">Mam bilet okresowy a telefon się rozładował. Co zrobić w czasie
+                            kontroli?</label></dt>
+                    <dd>W niektórych miastach, jeżeli rozładowała Ci się bateria w telefonie, pokaż kontrolerowi
+                        dokument tożsamości z numerem PESEL.
+                        To wystarczy żeby sprawdzić czy masz ważny bilet. Kontrola biletów poprzez numer PESEL nie może
+                        być zrealizowana w miastach:
+                        Rybnik, Jastrzębie -zdrój, Gdańsk, Gdynia, Sopot, Wejherowo, w pociągach przewozów regionalnych
+                        w Łodzi.
+                        Pamiętaj też, że w wielu autobusach i pociągach są gniazda USB więc dobrze mieć przy sobie
+                        ładowarkę na czarną godzinę.
+
+                    </dd>
+
+                    <input type="checkbox" id="FAQ-13">
+                    <dt><label for="FAQ-13">Mojego miasta nie ma w aplikacji, kiedy będzie?</label></dt>
+                    <dd>Chcesz korzystać z apki, ale Twojego miasta jeszcze nie ma na naszej liście? Napisz do nas,
+                        jakie miasta powinny się u nas znaleźć, a my zrobimy wszystko aby tak się stało :).
+                    </dd>
+                </dl>
+
+            </article>
+
+            <h5>MASZ INNE PYTANIE?</h5>
+            <p>Napisz do nas nas e-mail na <a href="mailto:kontakt@zbiletem.pl">kontakt@zbiletem.pl</a>. Możesz
+                skorzystać z tego <a href="https://zbiletem.pl/kontakt">formularza.</a> Znajdziesz nas też w mediach
+                społecznościowych. Zwykle odpowiadamy bardzo szybko. </p>
         </section>
 
-        <section id="about-us">
+        <section id="about-us" class="two-column">
             <h2>O nas</h2>
             <p class="lead"> Lubimy miasta przyjazne ludziom. Z dobrym powietrzem i wygodnym transportem. Zbiletem.pl to
                 odpowiedź na nasze potrzeby dotyczące prostego i wygodnego dostępu do biletów na transport publiczny.
